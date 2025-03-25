@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;   
+    }
+    body {
+            font-family: 'Inter', sans-serif;
+            background-color: #e4e8ed;
+            line-height: 1.7;
+            color:#1f2937;
+            transition: all 0.4s ease;
+        }
+        header {
+            background: linear-gradient(#d2cc15, #312c0d);
+            padding: 25px;
+            position: sticky;
+            z-index: 1000;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            position: fixed;
+            width: 100%;
+            height: 25%;
+        }
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: 800;
+            color: #2c2705  ;
+            padding: 25px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+        nav a {
+            color: #181b20;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 18px;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+        }
+        nav .active,
+        nav a:hover {
+            background-color: #fff;
+            color: #3b82f6;
+        }
+        .welcome{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background: #7470586e;
+        }
+        h2{
+           text-transform: uppercase;   
+        }
+        .main-section {
+            margin-bottom: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .main-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            text-align: center;
+            width: 300px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #252408;
+        }
+        .main-container:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            color: #fff;
+            background: linear-gradient(#d2cc15, #312c0d);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #d2cc15;
+            color: #312c0d;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            
+        }
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+
+</style>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">Portfolio</div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>    
+    
+    
+    <main>
+        <section class="welcome" id="about">
+            <h2>My PortFolio</h2>
+        </section>
+        <section class="main-section" id="work">
+        
+            <a class="main-container" href="CatPhotoApp.html">CatPhotoApp</a>
+            <a class="main-container"  href="CafeMenu.html">Cafe Menu</a>
+            <a class="main-container"  href="colored_marketers.html">Colored Markers</a>
+            <a class="main-container"  href="Registration_form.html">Registration Form</a>
+            <a class="main-container"  href="SURVEY_FORM.html">ANIME SURVEY</a>
+            <a class="main-container"  href="Rothko Painting.html">Rothko Painting</a>
+            <a class="main-container"  href="PhotoGallery.html">Photo Gallery</a>
+            <a class="main-container"  href="NutritionLabel.html">Nutrition Label</a>
+            <a class="main-container"  href="AccessibilityQuiz.html">Accessibility Quiz</a>
+            <a class="main-container"  href="BuildaTributePage.html">Build a Tribute Page</a>
+            <a class="main-container"  href="BalanceSheet.html">Balance Sheet</a>
+            <a class="main-container"  href="fCCCatPainting.html">fCC Cat Painting</a>
+            <a class="main-container"  href="Piano.html">Piano</a>
+            <a class="main-container"  href="TechnicalDocumentation.html">Build a Technical Documentation Page</a>
+            <a class="main-container"  href="CitySkyline.html">City Skyline</a>
+            <a class="main-container"  href="Magazine.html">Magazine</a>
+            <a class="main-container"  href="ProductLandingPage.html">Build a Product Landing Page</a>
+            <a class="main-container"  href="FerrisWheel.html">Ferris Wheel</a>
+            <a class="main-container"  href="Penguin.html">Penguin</a>
+            <a class="main-container"  href="PersonalPortfolioWebpage.html">Build a Personal Portfolio Webpage</a>
+           
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Porfolio Portal. Built for student learning</p>
+    </footer>
+    
+</body>
+</html>
