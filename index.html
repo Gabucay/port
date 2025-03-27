@@ -21,13 +21,11 @@
         }
         header {
             background: linear-gradient(#d2cc15, #312c0d);
-            padding: 25px;
-            position: sticky;
             z-index: 1000;
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
             position: fixed;
             width: 100%;
-            height: 25%;
+            
         }
         .header-container {
             max-width: 1400px;
@@ -68,9 +66,12 @@
             justify-content: center;
             align-items: center;
             background: #7470586e;
+            
         }
         h2{
-           text-transform: uppercase;   
+           text-transform: uppercase; 
+              font-size: 3rem;
+           
         }
         .main-section {
             margin-bottom: 40px;
@@ -78,6 +79,7 @@
             flex-wrap: wrap;
             justify-content: center;
             gap: 20px;
+            padding-top: 40px;
         }
         .main-container {
             background-color: #fff;
@@ -89,6 +91,7 @@
             width: 300px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: #252408;
+    
         }
         .main-container:hover {
             transform: translateY(-10px);
@@ -109,7 +112,14 @@
         p{
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
+        .certpic{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+       
         
+      
 
 </style>
 <body>
@@ -123,15 +133,13 @@
             </nav>
         </div>
     </header>
-    <br>
-    <br>
-    <br>    
-    
+   
     
     <main>
         <section class="welcome" id="about">
-            <h2>My PortFolio</h2>
+            <h2>Gabucay</h2>
         </section>
+      
         <section class="main-section" id="work">
         
             <a class="main-container" href="CatPhotoApp.html">CatPhotoApp</a>
@@ -156,14 +164,15 @@
             <a class="main-container"  href="PersonalPortfolioWebpage.html">Build a Personal Portfolio Webpage</a>
            
         </section>
-        <section>
+        
+        <section class="certpic">
             <img src="Screenshot 2025-03-27 105513.png" alt="free code camp certificate">
         </section>
+        
+
 
     </main>
-    
 
-    
 
     <footer>
         <p>© 2025 Gabucay Free code camp Portfolio</p>
